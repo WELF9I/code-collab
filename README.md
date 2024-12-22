@@ -50,7 +50,22 @@ Ensure you have the following installed:
      GOOGLE_CLIENT_ID=
      GOOGLE_CLIENT_SECRET=
 
-
 4. Run the development server:
    ```bash
    pnpm dev
+   
+## Usage 💡
+Create or access code sheets: You can either create a new code sheet or access an existing one via the provided URL.
+Edit code: Use the integrated Monaco Editor to write and modify code. ✍️
+Share code: Share your code sheet by copying the generated link using the Share button. 🔗
+Refresh sheet: Click the Refresh button to reload the sheet’s content if any changes have been made by other users. 🔄
+Contributing 🤝
+We welcome contributions! Here’s how you can contribute:
+
+## Report bugs 🐛
+Suggest new features 💡
+Improve documentation 📚
+Submit bug fixes or features via pull requests. 🔧
+
+
+
