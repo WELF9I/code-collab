@@ -1,30 +1,30 @@
-# Collaborative Code Editor
+# Collaborative Code Editor 📝
 
 A collaborative code editor built with **Next.js** and **Supabase**. This application allows users to create, share, and edit code sheets in real-time, making it an ideal tool for collaborative coding sessions and sharing snippets. 
 
-## Features
+## Features 🌟
 
-- **Real-time collaboration**: Edit code sheets and share them with others in real-time.
-- **Code editor**: Integrated **Monaco Editor** for a seamless coding experience.
-- **Share button**: Easily share your code sheet with others via a link.
+- **Monaco Editor**: Integrated **Monaco Editor** for syntax highlighting and a seamless coding experience. 💻
+- **Share functionality**: Easily share your code sheet with others via a link. 🔗
+- **Refresh data**: Refresh the content if it’s modified by collaborators. 🔄
 
-## Tech Stack
+## Tech Stack 🛠️
 
-- **Next.js**: A React framework for building modern web applications.
-- **Supabase**: Open-source backend-as-a-service for database, authentication, and more.
-- **Monaco Editor**: The code editor used for syntax highlighting and code editing.
-- **Tailwind CSS**: A utility-first CSS framework for building custom designs.
+- **Next.js**: A React framework for building modern web applications. ⚛️
+- **Supabase**: Open-source backend-as-a-service for database, authentication, and more. 🗄️
+- **Monaco Editor**: The code editor used for syntax highlighting and code editing. ✨
+- **Tailwind CSS**: A utility-first CSS framework for custom designs. 🎨
 
-## Installation
+## Installation 🚀
 
-### Prerequisites
+### Prerequisites ✅
 
-Make sure you have the following installed on your machine:
+Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 16 or higher)
-- [pnpm](https://pnpm.io/) (recommended) or npm
+- [Node.js](https://nodejs.org/) (version 16 or higher) 🟢
+- [pnpm](https://pnpm.io/) (recommended) or npm 🚀
 
-### Steps
+### Setup Instructions 🔧
 
 1. Clone the repository:
 
@@ -38,17 +38,17 @@ Make sure you have the following installed on your machine:
 
 3. Create a .env.local file in the root of the project and add the following configuration:
    ```bash
-   # Supabase configuration
-  NEXT_PUBLIC_SUPABASE_URL=https:
-  NEXT_PUBLIC_SUPABASE_ANON_KEY=
-  
-  # NextAuth configuration
-  NEXTAUTH_URL=
-  NEXTAUTH_SECRET=
-  
-  # Google OAuth credentials (for NextAuth)
-  GOOGLE_CLIENT_ID=
-  GOOGLE_CLIENT_SECRET=
+     # Supabase configuration
+     NEXT_PUBLIC_SUPABASE_URL=https:
+     NEXT_PUBLIC_SUPABASE_ANON_KEY=
+     
+     # NextAuth configuration
+     NEXTAUTH_URL=
+     NEXTAUTH_SECRET=
+     
+     # Google OAuth credentials (for NextAuth)
+     GOOGLE_CLIENT_ID=
+     GOOGLE_CLIENT_SECRET=
 
 
 4. Run the development server:
